@@ -30,4 +30,5 @@ $("#prepend").click(function (event) {
   }
   // prepend
   tasks.prepend(`<p>${input}</p>`);
+  $("#input").val("");
 });
